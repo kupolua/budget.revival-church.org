@@ -42,7 +42,7 @@ class Payers extends React.Component{
       <div style={{
         display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "center",
       }}>
-          <div>Бюджет завершення будівництва церкви 1 000 000 грн. Пожертвування: {this.state.sumPayments} грн. Виконано: {(this.state.sumPayments / 1000000 * 100).toFixed(2)}%</div>
+          <div>KPL Бюджет завершення будівництва церкви 1 000 000 грн. Пожертвування: {this.state.sumPayments} грн. Виконано: {(this.state.sumPayments / 1000000 * 100).toFixed(2)}%</div>
 
         <div style={{
           display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start",
